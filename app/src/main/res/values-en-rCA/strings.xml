@@ -3,4 +3,14 @@
     <string name="app_name">AndroidAssignments</string>
     <string name="hello_message">Bounjour!</string>
     <string name="ButtonText">I\'m a button</string>
+    <string name="Login">Le Login</string>
+    <string name="Password">Le Password</string>
+    <string name="RadioButton">Le Radio Button</string>
+    <string name="Confusion">Le What does this do?</string>
+    <string name="CheckBox">Le CheckBox</string>
+    <string name="LoginButtonText">Le Login</string>
+    <string name="dialog_message">Le Dialog Message</string>
+    <string name="dialog_title">Le Close Title</string>
+    <string name="ok">Le Ok</string>
+    <string name="cancel">Le Cancel</string>
 </resources>
