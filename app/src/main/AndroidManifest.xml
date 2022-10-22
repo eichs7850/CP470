@@ -13,6 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidAssignments"
         tools:targetApi="29" >
+
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="com.mydomain.fileprovider"
@@ -38,6 +39,15 @@
             android:name=".MainActivity"
             android:exported="true">
         </activity>
+        <activity
+            android:name=".ChatWindow"
+            android:exported="true"
+            android:parentActivityName=".MainActivity">
+
+        </activity>
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="MainActivity" />
     </application>
     <uses-feature
     android:name="android.hardware.camera.any"

@@ -16,6 +16,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+    public void Chat(View v){
+        Log.i(ACTIVITY_NAME, "User clicked Chat");
+        Intent next_page = new Intent(MainActivity.this, ChatWindow.class);
+        startActivity(next_page);
+    }
     public void Print(String s){
         Toast.makeText(this,s,Toast.LENGTH_SHORT).show();
 
@@ -38,6 +43,10 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
+    }
+
+    public void onClick(View v){
+        Log.i(ACTIVITY_NAME,"User clicked Start Chat");
     }
     @Override
     protected void onResume() {
@@ -68,4 +77,6 @@ public class MainActivity extends AppCompatActivity {
         super.onDestroy();
         Log.i(ACTIVITY_NAME, "In onDestroy()");
     }
+
+
 }

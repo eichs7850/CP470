@@ -13,6 +13,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
+
 public class LoginActivity extends AppCompatActivity {
     protected static final String ACTIVITY_NAME = "LoginActivity";
 
